@@ -10,14 +10,9 @@ function addNewStickyNote(title, content) {
     $('.stickydiv').draggable();
 
     $('.close_sticky').click(function() {
-        $(this).parent('div').fadeOut(500);
-        //$(this).parent('div').remove();
-    });
-
-
-    var newNote = stickyNotes.find("li:last");
-    newNote.find("img").click(function() {
-        newNote.remove();
+        $(this).parent('div').addClass('fadeOutUpBig');
+        $(this).parent('div').slideUp( "slow", function() {
+        });
     });
 }
 
