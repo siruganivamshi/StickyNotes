@@ -1,9 +1,9 @@
-# Sticky notes
+#### Sticky notes
 
-## Sticky notes project developed using HTML5, CSS3, Google material design
+##### Sticky notes project developed using HTML5, CSS3, Google material design
 
-## https://sticky-141d5.firebaseapp.com
+##### https://sticky-141d5.firebaseapp.com
 
-## License
-### Author: Vamshi
+#### License
+#### Author: Vamshi
 MIT
